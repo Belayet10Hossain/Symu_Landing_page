@@ -1,0 +1,452 @@
+/* Responsive For Mobile */
+@media screen and (max-width: 500px){
+
+	.header-section{
+		background: url(../images/Mache_Template-Symu_co.png) no-repeat center;
+		background-size: cover;
+		padding: 150px 0px;
+	}
+	.header-section span{
+		border: none;
+		color:#fff;
+		transition: 0.4s ease-in-out; 
+	}
+	.header-section span:hover{
+		color: #ed145b;
+	}
+	.navbar-light .navbar-toggler {
+	    color: transparent;
+	    border-color: transparent;
+	    font-size: 25px;
+	}
+	.header-section h1 {
+	    font-size: 29px;
+	    padding-top: 50px;
+	}
+	.header-section .bord {
+	    width: 125px;
+	    margin: 42px auto;
+	}
+	.header-section p {
+	    width: 100%;
+	    margin: -5px auto 0px;
+	    line-height: 28px;
+	    font-weight: 200;
+	    padding-bottom: 50px;
+	}
+	.btn-danger {
+	    margin: 22px auto -67px auto;
+	    width: 150px;
+	    padding: 7px 0px;
+	}
+	.template-section .left-side {
+	    padding: 50px 0px;
+	}
+	.template-section h2 {
+	    width: 100%;
+	    text-align: center;
+	    font-size: 24px;
+	}
+	.template-section .bord {
+	    width: 117px;
+	    margin: 15px auto;
+	}
+	.template-section p {
+	    line-height: 24px;
+	    padding-bottom: 0px;
+	    text-align: center;
+	}
+	.template-section .left-side .vdo {
+	    margin-left: 0px;
+	    text-align: center;
+	}
+	.template-section .right-side {
+	    padding: 0px 0px 0px 0px;
+	    margin-top: -10px;
+	}
+	.service-section {
+	   padding: 40px 0px;
+	}
+	.service-section h2 {
+	    font-size: 24px;
+	}
+	.service-section .bord {
+	    width: 100px;
+	    margin: 15px auto;
+	}
+	.service-section p {
+	    width: 100%;
+	}
+	.service-section .service {
+	    padding-top: 8px;
+	}
+	.service-section .service img {
+	    margin-top: 35px;
+	}
+	.service-section .service p {
+	    padding-top: 6px;
+	}
+	.quotes-section {
+	    padding: 40px 0px;
+	}
+	.prices-section {
+	    padding: 40px 0px;
+	}
+	.prices-section h2 {
+	    font-size: 24px;
+	}
+	.prices-section .bord {
+	    width: 115px;
+	    margin: 15px auto;
+	}
+	.prices-section p {
+	    width: 100%;
+	}
+	.prices-section .box p {
+	    margin: -5px 0px 0px 3px;
+	}
+	.card-deck .card {
+	    margin: 10px 20px 40px 20px;
+	}
+	.info-section {
+	    padding: 50px 0px;
+	}
+	.card-img {
+	    margin: 0 auto;
+	    display: block;
+	}
+	.card-body-custom h5 {
+	    text-align: center;
+	    padding-top: 20px;
+	}
+	.card-text:last-child {
+		margin-bottom: 0px;
+	    padding-bottom: 35px;
+	    text-align: center;
+	}
+	.info-section .custom {
+	    padding-top: 0px;
+	}
+	.join-us-section h3 {
+	    font-size: 20px;
+	    display: block;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.join-us-section button {
+	    margin: 20px auto;
+	    text-align: center;
+	    display: block;
+	    width: 150px;
+	    padding: 5px 0px;
+	}
+	.news-section {
+	    padding: 40px 0px;
+	}
+	.news-section h2 {
+	    font-size: 25px;
+	}
+	.news-section .bord {
+	    width: 110px;
+	    margin: 15px auto;
+	}
+	.news-section p {
+	    margin: 0 auto -48px 0px;
+	    width: 100%;
+	}
+	.img-hover {  
+	    height: 52%;
+	}
+	.news-section .castom p {
+	    width: 100%;
+	    margin-bottom: -35px;
+	}
+	.news-section .one {
+	    margin-top: -81px;
+	}
+	.news-section .castom .img-hover .fa {
+	    margin: 78px 0px 0px 75px;
+	}
+	.news-section .down {
+	    padding-top: 25px;
+	}
+	.additional-info-section {
+	    padding: 45px 0px;
+	}
+	.additional-info-section h2 {
+	    font-size: 25px;
+	}
+	.additional-info-section .bord {
+	    width: 110px;
+	    margin: 15px auto;
+	}
+	.additional-info-section p {
+	    line-height: 25px;
+	    width: 100%;
+	}
+	.btn-danger-info {
+	    width: 135px;
+	    padding: 5px 0px;
+	}
+	.download-section {
+	    padding: 45px 0px;
+	}
+	.download-section .left-side img {
+	    padding-bottom: 30px;
+	}.download-section .right-side h2 {
+	    text-align: center;
+	    font-size: 25px;
+	}
+	.download-section .right-side .bord {
+	    width: 110px;
+	    margin: 15px auto;
+	    text-align: center;
+	}
+	.download-section .right-side p {  
+	    line-height: 25px; 
+	    text-align: center;
+	}
+	.btn-danger-download {  
+	    width: 168px;
+	    padding: 7px 0px;
+	    margin: 0 auto;
+	}
+	.footer-section .left-side p {
+	    text-align: center;
+	}
+	.footer-section .right-side p {
+	    text-align: center;
+	}
+
+
+
+}
+
+
+/* Responsive For Tablet */
+@media (min-width: 501px) and (max-width: 768px){
+
+
+	.header-section{
+		background: url(../images/Mache_Template-Symu_co.png) no-repeat center;
+		background-size: cover;
+		padding: 150px 0px;
+	}
+	.header-section span{
+		border: none;
+		color:#fff;
+		transition: 0.4s ease-in-out; 
+	}
+	.header-section span:hover{
+		color: #ed145b;
+	}
+	.navbar-light .navbar-toggler {
+	    color: transparent;
+	    border-color: transparent;
+	    font-size: 25px;
+	}
+	.header-section h1 {
+	    font-size: 25px;
+	    padding-top: 50px;
+	}
+	.header-section .bord {
+	    width: 125px;
+	    margin: 35px auto;
+	}
+	.header-section p {
+	    width: 100%;
+	    margin: -5px auto 0px;
+	    line-height: 28px;
+	    font-weight: 200;
+	    padding-bottom: 50px;
+	}
+	.btn-danger {
+	    margin: 0px auto -67px auto;
+	    width: 150px;
+	    padding: 7px 0px;
+	}
+	.template-section .left-side {
+	    padding: 50px 0px;
+	}
+	.template-section h2 {
+	    width: 100%;
+	    text-align: center;
+	    font-size: 24px;
+	}
+	.template-section .bord {
+	    width: 117px;
+	    margin: 15px auto;
+	}
+	.template-section p {
+	    line-height: 24px;
+	    padding-bottom: 0px;
+	    text-align: center;
+	}
+	.template-section .left-side .vdo {
+	    margin-left: 0px;
+	    text-align: center;
+	}
+	.template-section .right-side {
+	    padding: 0px 0px 0px 0px;
+	    margin-top: -10px;
+	}
+	.service-section {
+	   padding: 40px 0px;
+	}
+	.service-section h2 {
+	    font-size: 24px;
+	}
+	.service-section .bord {
+	    width: 100px;
+	    margin: 15px auto;
+	}
+	.service-section p {
+	    width: 100%;
+	}
+	.service-section .service {
+	    padding-top: 8px;
+	}
+	.service-section .service img {
+	    margin-top: 35px;
+	}
+	.service-section .service p {
+	    padding-top: 6px;
+	}
+	.quotes-section {
+	    padding: 40px 0px;
+	}
+	.prices-section {
+	    padding: 40px 0px;
+	}
+	.prices-section h2 {
+	    font-size: 24px;
+	}
+	.prices-section .bord {
+	    width: 115px;
+	    margin: 15px auto;
+	}
+	.prices-section p {
+	    width: 100%;
+	}
+	.card-deck .card {
+	    margin: 10px 20px 40px 20px;
+	}
+	.info-section {
+	    padding: 50px 0px;
+	}
+	.card-img {
+	    margin: 0 auto;
+	    display: block;
+	}
+	.card-body-custom h5 {
+	    text-align: center;
+	    padding-top: 20px;
+	}
+	.card-text:last-child {
+		margin-bottom: 0px;
+	    padding-bottom: 35px;
+	    text-align: center;
+	}
+	.info-section .custom {
+	    padding-top: 0px;
+	}
+	.join-us-section h3 {
+	    font-size: 20px;
+	    display: block;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.join-us-section button {
+	    margin: 20px auto;
+	    text-align: center;
+	    display: block;
+	    width: 150px;
+	    padding: 5px 0px;
+	}
+	.news-section {
+	    padding: 40px 0px;
+	}
+	.news-section h2 {
+	    font-size: 25px;
+	}
+	.news-section .bord {
+	    width: 110px;
+	    margin: 15px auto;
+	}
+	.news-section p {
+	    margin: 0 auto -48px 0px;
+	    width: 100%;
+	}
+	.img-hover {  
+	    height: 52%;
+	}
+	.news-section .castom p {
+	    width: 100%;
+	    margin-bottom: -35px;
+	}
+	.news-section .one {
+	    margin-top: -81px;
+	}
+	.news-section .castom .img-hover .fa {
+	    margin: 78px 0px 0px 75px;
+	}
+	.news-section .down {
+	    padding-top: 25px;
+	}
+	.additional-info-section {
+	    padding: 45px 0px;
+	}
+	.additional-info-section h2 {
+	    font-size: 25px;
+	}
+	.additional-info-section .bord {
+	    width: 110px;
+	    margin: 15px auto;
+	}
+	.additional-info-section p {
+	    line-height: 25px;
+	    width: 100%;
+	}
+	.btn-danger-info {
+	    width: 135px;
+	    padding: 5px 0px;
+	}
+	.download-section {
+	    padding: 45px 0px;
+	}
+	.download-section .left-side img {
+	    padding-bottom: 30px;
+	}.download-section .right-side h2 {
+	    text-align: center;
+	    font-size: 25px;
+	}
+	.download-section .right-side .bord {
+	    width: 110px;
+	    margin: 15px auto;
+	    text-align: center;
+	}
+	.download-section .right-side p {  
+	    line-height: 25px; 
+	    text-align: center;
+	}
+	.btn-danger-download {  
+	    width: 155px;
+	    padding: 7px 0px;
+	    margin: 0 auto;
+	}
+	.footer-section .left-side p {
+	    text-align: center;
+	}
+	.footer-section .right-side p {
+	    text-align: center;
+	}
+
+
+
+
+}
+
+
+
+/* Responsive For Notebook */
+@media (min-width: 769px) and (max-width: 990px)
